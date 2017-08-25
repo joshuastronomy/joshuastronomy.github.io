@@ -22,8 +22,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300; }
 
 section {
   padding: 100px 0; }
@@ -70,8 +70,8 @@ body {
     color: white;
     border: 0;
     background-color: #fed136;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
   #mainNav .navbar-brand {
     color: #fed136;
     font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; }
@@ -83,8 +83,8 @@ body {
     padding: 0.75em 0;
     letter-spacing: 1px;
     color: white;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
     #mainNav .navbar-nav .nav-item .nav-link.active, #mainNav .navbar-nav .nav-item .nav-link:hover {
       color: #fed136; }
 
@@ -115,7 +115,7 @@ body {
 header.masthead {
   text-align: center;
   color: white;
-  background-image: url("../img/header-bg.jpg");
+  background-image: url("../img/Pleiades_large.jpg");
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-position: center center;
@@ -137,8 +137,8 @@ header.masthead {
       font-weight: 700;
       line-height: 50px;
       margin-bottom: 25px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; }
+      font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300; }
 
 @media (min-width: 768px) {
   header.masthead .intro-text {
@@ -155,8 +155,8 @@ header.masthead {
       font-weight: 700;
       line-height: 75px;
       margin-bottom: 50px;
-      font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-      text-transform: uppercase; } }
+      font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+      font-weight: 300; } }
 
 .service-heading {
   margin: 15px 0;
@@ -424,9 +424,12 @@ header.masthead {
   margin-bottom: 50px;
   text-align: center; }
   .team-member img {
-    width: 225px;
-    height: 225px;
-    border: 7px solid white; }
+    width: auto;
+    height: auto;
+    max-width: 300px;
+    max-height: 250px;
+    border: 7px solid white;
+    border-radius: 50%; }
   .team-member h4 {
     margin-top: 25px;
     margin-bottom: 0;
@@ -456,25 +459,25 @@ section#contact {
   section#contact ::-webkit-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
   section#contact :-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 18- */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
   section#contact ::-moz-placeholder {
     font-weight: 700;
     color: #eeeeee;
     /* Firefox 19+ */
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
   section#contact :-ms-input-placeholder {
     font-weight: 700;
     color: #eeeeee;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
   section#contact .text-danger {
     color: #e74c3c; }
 
@@ -485,15 +488,15 @@ footer {
     font-size: 90%;
     line-height: 40px;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
   footer ul.quicklinks {
     font-size: 90%;
     line-height: 40px;
     margin-bottom: 0;
     text-transform: none;
-    font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    text-transform: uppercase; }
+    font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    font-weight: 300; }
 
 ul.social-buttons {
   margin-bottom: 0; }
@@ -521,8 +524,8 @@ ul.social-buttons {
   color: white;
   border-color: #fed136;
   background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300; }
   .btn-primary.focus, .btn-primary:focus {
     color: white;
     border-color: #b48b01;
@@ -564,8 +567,8 @@ ul.social-buttons {
   color: white;
   border-color: #fed136;
   background-color: #fed136;
-  font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  text-transform: uppercase; }
+  font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300; }
   .btn-xl.focus, .btn-xl:focus {
     color: white;
     border-color: #b48b01;
@@ -598,3 +601,13 @@ ul.social-buttons {
   .btn-xl .badge {
     color: #fed136;
     background-color: white; }
+
+.btn-outline-primary {
+  font-size: 18px;
+  color: #fed136;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-color: #fed136;
+  border-radius: 3px;
+  font-family: 'Josefin Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-weight: 300; }

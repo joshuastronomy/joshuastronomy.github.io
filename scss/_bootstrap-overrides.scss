@@ -17,3 +17,13 @@
   @include button-variant(white, $theme-primary, $theme-primary);
   @include heading-font;
 }
+
+.btn-outline-primary {
+  font-size: 18px;
+  color: #fed136;
+  font-weight: 700;
+  padding: 10px 20px;
+  border-color: #fed136;
+  border-radius: 3px;
+  @include heading-font;
+}
