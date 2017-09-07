@@ -41,7 +41,7 @@ section {
 
 @media (min-width: 768px) {
   section {
-    padding: 150px 0; } }
+    padding: 50px 0; } }
 
 ::-moz-selection {
   background: #fed136;
@@ -163,7 +163,8 @@ header.masthead {
   text-transform: none; }
 
 #portfolio .port-button {
-  font-size: 2em; }
+  font-size: 2em;
+  text-decoration: none; }
 
 #portfolio .portfolio-item {
   right: 0;
